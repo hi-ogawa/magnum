@@ -40,6 +40,8 @@ See also:
 
 @subsection changelog-latest-new New features
 
+-   New @ref MeshAttributeType enum for mesh attribute types
+
 @subsubsection changelog-latest-new-gl GL library
 
 -   Exposed entry points from the desktop / ES @gl_extension{OVR,multiview} and
