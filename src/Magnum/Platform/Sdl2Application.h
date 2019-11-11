@@ -1470,6 +1470,13 @@ class Sdl2Application::Configuration {
              * @note Not available on @ref CORRADE_TARGET_EMSCRIPTEN "Emscripten".
              */
             MouseLocked = SDL_WINDOW_INPUT_GRABBED,
+
+            /**
+             * Window floating above others, top-most
+             *
+             * @note Not available on @ref CORRADE_TARGET_EMSCRIPTEN "Emscripten".
+             */
+            Floating = SDL_WINDOW_ALWAYS_ON_TOP,
             #endif
 
             /**
